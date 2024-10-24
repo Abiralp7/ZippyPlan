@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-23T07:30:07 NPT" name="Default suite" finished-at="2024-10-23T07:31:23 NPT" duration-ms="75604">
+  <suite started-at="2024-10-23T15:10:36 NPT" name="Default suite" finished-at="2024-10-23T15:11:51 NPT" duration-ms="75011">
     <groups>
     </groups>
-    <test started-at="2024-10-23T07:30:07 NPT" name="Default test" finished-at="2024-10-23T07:31:23 NPT" duration-ms="75604">
+    <test started-at="2024-10-23T15:10:36 NPT" name="Default test" finished-at="2024-10-23T15:11:51 NPT" duration-ms="75011">
       <class name="Zippy.ZippyPlan">
-        <test-method signature="ZippyPlan()[pri:0, instance:Zippy.ZippyPlan@43dac38f]" started-at="2024-10-23T07:30:07 NPT" name="ZippyPlan" finished-at="2024-10-23T07:31:23 NPT" duration-ms="75565" status="PASS">
+        <test-method signature="ZippyPlan()[pri:0, instance:Zippy.ZippyPlan@43dac38f]" started-at="2024-10-23T15:10:36 NPT" name="ZippyPlan" finished-at="2024-10-23T15:11:51 NPT" duration-ms="74975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ZippyPlan -->

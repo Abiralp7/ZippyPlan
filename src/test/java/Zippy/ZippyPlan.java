@@ -32,20 +32,20 @@ import org.testng.annotations.Test;
 		
 			driver.findElement(By.xpath("//a[contains(@class, 'w-40') and contains(@class, 'grow') and contains(@href, '/register')]")).click();
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input[placeholder='Enter your full name'][class*='rounded-lg']\r\n"+ "")).sendKeys("");
+			driver.findElement(By.cssSelector("input[placeholder='Enter your full name'][class*='rounded-lg']\r\n"+ "")).sendKeys("Binish Pokhrel");
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.read-only\\:focus\\:ring-gray-gray6.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary")).sendKeys("");	
+			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.read-only\\:focus\\:ring-gray-gray6.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary")).sendKeys("testyoddhalab@gmail.com");	
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Enter Your Password'][name='password']")).sendKeys("");					
+			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Enter Your Password'][name='password']")).sendKeys("12345");					
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Confirm Password'][name='confirmPassword']")).sendKeys("");
+			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Confirm Password'][name='confirmPassword']")).sendKeys("12345");
 			//signup garako
 			
 			driver.findElement(By.cssSelector("a.w-40.grow.rounded-none.border-b.pb-2\\.5.text-center.font-medium.transition-all.duration-300.ease-in-out.focus\\:ring-0[href='/login']")).click();		        
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input[name='email'][placeholder='Enter your email'].rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.read-only\\:focus\\:ring-gray-gray6.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary.w-full.items-center.flex")).sendKeys("");
+			driver.findElement(By.cssSelector("input[name='email'][placeholder='Enter your email'].rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.read-only\\:focus\\:ring-gray-gray6.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary.w-full.items-center.flex")).sendKeys("testyoddhalab@gmail.com");
 			Thread.sleep(1000);
-			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Enter your password'][name='password']")).sendKeys("");
+			driver.findElement(By.cssSelector("input.w-full.rounded-lg.py-2\\.5.pl-3\\.5.pr-9.text-base.font-normal.text-gray-gray1.outline-none.ring-1.placeholder\\:text-gray-gray5.focus\\:outline-none.ring-gray-gray6.focus\\:shadow-input.focus\\:ring-primary[type='password'][placeholder='Enter your password'][name='password']")).sendKeys("Test@123");
 			Thread.sleep(1000);
 			
 			Thread.sleep(1000);
@@ -155,11 +155,6 @@ import org.testng.annotations.Test;
 				Thread.sleep(1000);
 				driver.findElement(By.xpath("//button[contains(text(),'Submit Booking Type')]")).click();
 				Thread.sleep(1000);
-<<<<<<< HEAD
-				driver.findElements(By.xpath(""));
-=======
-				
->>>>>>> c748488e77677cb50afee523e30b0e17c1dfcaf2
         }
 		}
 		}
