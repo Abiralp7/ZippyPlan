@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VastuVeda Designs - Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white font-display">
+<div class="relative w-full bg-white dark:bg-background-dark border-b border-[#f0f2f4] dark:border-[#2a3441]">
+
+  <div class="px-4 md:px-10 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <span class="material-symbols-outlined text-primary text-[32px]">architecture</span>
+      <h2 class="text-lg font-bold">VastuVeda</h2>
+    </div>
+
+    <!-- Desktop Nav -->
+    <div class="hidden md:flex items-center gap-8">
+      <nav class="flex items-center gap-6">
+        <a href="index.html" class="text-sm font-medium hover:text-primary">Home</a>
+        <a href="services.html" class="text-sm font-medium hover:text-primary">Services</a>
+        <a href="packages.html" class="text-sm font-medium hover:text-primary">Packages</a>
+        <a href="about.html" class="text-sm font-medium hover:text-primary">About</a>
+        <a href="contact.html" class="text-sm font-medium hover:text-primary">Contact</a>
+      </nav>
+
+      <a href="consult.html"
+         class="flex h-10 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold items-center justify-center rounded-lg transition-colors">
+        Request Consultation
+      </a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button onclick="toggleMenu()" class="md:hidden">
+      <span class="material-symbols-outlined text-[28px]">menu</span>
+    </button>
+  </div>
+
+  <!-- MOBILE MENU -->
+<div id="mobile-menu"
+     class="hidden md:hidden bg-white dark:bg-background-dark border-t border-[#f0f2f4] dark:border-[#2a3441]">
+
+  <nav class="flex flex-col divide-y divide-[#f0f2f4] dark:divide-[#2a3441]">
+
+    <a href="index.html" class="px-4 py-4 text-base font-medium hover:bg-background-light dark:hover:bg-[#1b2633]">
+      Home
+    </a>
+
+    <a href="services.html" class="px-4 py-4 text-base font-medium hover:bg-background-light dark:hover:bg-[#1b2633]">
+      Services
+    </a>
+
+    <a href="packages.html" class="px-4 py-4 text-base font-medium hover:bg-background-light dark:hover:bg-[#1b2633]">
+      Packages
+    </a>
+
+    <a href="about.html" class="px-4 py-4 text-base font-medium hover:bg-background-light dark:hover:bg-[#1b2633]">
+      About
+    </a>
+
+    <a href="contact.html" class="px-4 py-4 text-base font-medium hover:bg-background-light dark:hover:bg-[#1b2633]">
+      Contact
+    </a>
+  </nav>
+
+  <div class="p-4">
+    <a href="consult.html"
+       class="flex w-full h-12 bg-primary hover:bg-primary/90 text-white text-base font-bold items-center justify-center rounded-xl shadow-lg">
+      Request Consultation
+    </a>
+  </div>
+</div>
+<div class="relative bg-white dark:bg-background-dark py-12 md:py-20 px-4 md:px-10 flex justify-center">
+<div class="max-w-7xl w-full flex flex-col md:flex-row gap-10 items-center">
+<div class="flex-1 flex flex-col gap-6 md:gap-8 text-center md:text-left">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em] text-[#111418] dark:text-white">
+                    Designing Thoughtful Spaces for Modern Living
+                </h1>
+<p class="text-base md:text-lg text-[#637588] dark:text-gray-300 font-normal leading-relaxed">
+                    We are an architectural firm specializing in interior and exterior design, creating functional, aesthetic, and vastu-aligned spaces tailored to your lifestyle.
+                </p>
+<div class="flex flex-wrap gap-4 justify-center md:justify-start">
+<button onclick="window.location.href='consult.html';"
+        class="flex h-12 px-6 bg-primary hover:bg-primary/90 text-white text-base font-bold items-center justify-center rounded-lg transition-colors shadow-lg shadow-blue-500/20">
+    Request a Design Consultation
+</button>
+
+<button class="flex h-12 px-6 bg-[#f0f2f4] hover:bg-[#e0e2e4] dark:bg-[#2a3441] dark:hover:bg-[#3a4451] text-[#111418] dark:text-white text-base font-bold items-center justify-center rounded-lg transition-colors">
+                        Talk to an Architect
+                    </button>
+</div>
+</div>
+<div class="flex-1 w-full">
+<div class="w-full aspect-[4/3] rounded-xl bg-center bg-cover shadow-2xl" data-alt="Modern living room with large windows and minimalist furniture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCJydcz4Yg6foHVi_Z369EeTGYkljSk20t5XKXFA6tTYgJaGu4oqgnAL25cD3n0fCDkjyLRzCxo7TnpxxpLCJ3XrNa7oi8uG3oPHAoxPqM0RVcpd4GVWbTXXczayEFxXY18YaWIcEJu2ILE730gjrxDNx_hg3ZsW0rOa4MwzfT-Ey4a2CL3wV4kOGgs04YUxeFnDUHhj1Wom8Jg_NOYYqruTxIE4iZ8kDVFG0yC0-8vQeHVktd_g2tILXkJWp4nEtjQdbSwdkr_iG40");'>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-[#0b1219] py-16 px-4 md:px-10 flex justify-center">
+<div class="max-w-7xl w-full flex flex-col gap-10">
+<div class="flex flex-col gap-4 max-w-3xl">
+<h2 class="text-3xl md:text-4xl font-black leading-tight tracking-[-0.033em] text-[#111418] dark:text-white">
+                    What We Do
+                </h2>
+<p class="text-lg text-[#637588] dark:text-gray-400 font-normal leading-normal">
+                    Expertise that spans from structural planning to the finest interior details, ensuring every corner of your space serves a purpose.
+                </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="flex flex-col gap-4 p-5 rounded-xl bg-white dark:bg-[#1a232e] shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-video rounded-lg bg-cover bg-center" data-alt="Blueprint of a residential house on a wooden table" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGXQrltQ7hNOKdl_P9azVHcj4pXmXGeYrAcTxQzz5Tpr09c3eLgX3Hx53p4YtIYVoieGqYWWMabxYtb_PRFHCEEz3diwbcrCb6BfT-vacIjJ7Fv1dxrBC19imne8ap-OjXGcFLJ39ny3Zbg0bevVvcCQljr4SSJKSVHICLLvP1cDHHMp5MrCcfob20CQZppRznze7d4TOLhpE12PDUBUJKXuRzlUMznUo2AI-XrA8aC-uYTqc0MTU3BlrF1BfWK0utUfZGe2x3yeqj");'></div>
+<div>
+<h3 class="text-lg font-bold text-[#111418] dark:text-white mb-1">Residential Architecture</h3>
+<p class="text-sm text-[#637588] dark:text-gray-400">Custom home blueprints designed for longevity and style.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-5 rounded-xl bg-white dark:bg-[#1a232e] shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-video rounded-lg bg-cover bg-center" data-alt="Luxurious modern living room interior design" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBRlL2YtU13yTKHeTl9x3LbB_fjPcRhJCxOii20v4ysPUbiIkQ4gl5V8gTI8DtSlxXAsK1C882ZZHr-Lakb5y1Hr-KbFi7vIjT1S7eQIwYyaZI-7bF32yP8KSYvauTHQfhYxrF5Nda3lS_whi-CWPs2_lGFHtLWEerqqqK5poVBr6flg63xEQpWBPW_Lu24nZB03mAUmkTge3jz5U0C3SZmW0ossO5YadEMeLNaC88EA65KG_EkNajuy6YWMBEjxvq4B9iqfhbEGUpD");'></div>
+<div>
+<h3 class="text-lg font-bold text-[#111418] dark:text-white mb-1">Interior Design</h3>
+<p class="text-sm text-[#637588] dark:text-gray-400">Aesthetic interior styling that reflects your personal taste.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-5 rounded-xl bg-white dark:bg-[#1a232e] shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-video rounded-lg bg-cover bg-center" data-alt="Modern house exterior with garden landscaping" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoMEA0RwOguslRUcnP8gvLZtTcbArwMnCb-kgVpulhwTJr3GkODCX7rqSG8MivBlg9LDnn1ibl4SO6lIQNg9XmzJczwbej8dIlkJfPCnp5KQzXNqbqIzcyUJLcriH9-sO5lTilNDMnMIEAbl2EBePCEB4cUqivhholYOyl3Bv28iGy0GGLC9lHmN-ZbA5L8jKn6Jrd7LkmgTQdAwZyspbAH9Vi80O75T3iitUnftX8fuVEbiIsBx_Jl2GftzXQ-HyHcStMClc1PR8t");'></div>
+<div>
+<h3 class="text-lg font-bold text-[#111418] dark:text-white mb-1">Exterior Design</h3>
+<p class="text-sm text-[#637588] dark:text-gray-400">Stunning facade and landscape design for curb appeal.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-5 rounded-xl bg-white dark:bg-[#1a232e] shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-video rounded-lg bg-cover bg-center" data-alt="Traditional mandala pattern representing Vastu Shastra" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATqcirs_UmTpxxO4V6_N9MwcxX1xrFuRbFOjf5cAvqLklAt2p_uECQq_89_VQWhlQ9UOWF_OMShdiRdwtbdkgosLB37xyMGh0atHqj7Cjs48i2mWibhNXgrKhyPYXm63FrwwvlGJnUfXgQ8bUwAXPbo_6Pu5DdKug61RG7MHJS0mIuVCLBGkle0HBicq8qxkMY1_56d5yIzdOSsCsb9ApfjRqJDNdgRBc8EnczwEkZabJ00Uh1c_-zrS3vOwOos1NBEEwtsccme29b");'></div>
+<div>
+<h3 class="text-lg font-bold text-[#111418] dark:text-white mb-1">Vastu-Based Planning</h3>
+<p class="text-sm text-[#637588] dark:text-gray-400">Harmonizing spaces with traditional energy principles.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-5 rounded-xl bg-white dark:bg-[#1a232e] shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-video rounded-lg bg-cover bg-center" data-alt="Open floor plan sketch with measurements" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAnN9REt0S9JwLI-4HF2NaN7t70-POx86BUxJtjfYBn46k3JkWdf3nfvyuD_DfilhJuoxVnjBFq5GhhybVq5kN4WgoVPldbvC0hHtm18m_DjSWGrcjQgFw-vWKjg95rqRK-kYg-ItiUGJeP19RGqBW_Ha0btStZHi9TKGV5s2a60FdqrKlWlPvodA57vJDHulzKoKz54XFLG6KY0ZEHSlLGtGEKmIUTPC0Bxqk_MAHPk2jQLt_6xbh5pK-nvMQi6wIurzeDq0kMLYxT");'></div>
+<div>
+<h3 class="text-lg font-bold text-[#111418] dark:text-white mb-1">Space Optimization</h3>
+<p class="text-sm text-[#637588] dark:text-gray-400">Intelligent layout planning for maximum efficiency and flow.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark py-16 px-4 md:px-10 flex justify-center border-t border-[#f0f2f4] dark:border-[#2a3441]">
+<div class="max-w-7xl w-full flex flex-col gap-10">
+<div class="flex flex-col md:flex-row justify-between items-end gap-4">
+<div>
+<h2 class="text-3xl md:text-4xl font-black leading-tight tracking-[-0.033em] text-[#111418] dark:text-white mb-2">Packages Preview</h2>
+<p class="text-base text-[#637588] dark:text-gray-400">Transparent pricing for every stage of your project.</p>
+</div>
+<a class="text-primary font-bold hover:underline flex items-center gap-1" href="packages.html">View Full Packages <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-6 rounded-xl border border-[#dbe0e6] dark:border-[#2a3441] bg-white dark:bg-[#1a232e] p-8 hover:border-primary/50 transition-colors">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-[#111418] dark:text-white">Smart Home Layout</h3>
+<p class="text-base font-bold text-[#111418] dark:text-white">
+                            (Final cost depends on plot size and complexity)
+                        </p>
+<p class="text-sm text-[#637588] dark:text-gray-400 mt-2">Perfect for single rooms or small apartment renovations.</p>
+</div>
+<ul class="flex flex-col gap-3 text-sm text-[#111418] dark:text-gray-200">
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> 2D Layout Plan</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Furniture Placement</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> 1 Revision Round</li>
+</ul>
+<button class="mt-auto w-full h-10 rounded-lg bg-[#f0f2f4] dark:bg-[#2a3441] hover:bg-[#e0e2e4] dark:hover:bg-[#3a4451] text-[#111418] dark:text-white text-sm font-bold transition-colors">
+                        View Details
+                    </button>
+</div>
+<div class="flex flex-col gap-6 rounded-xl border-2 border-primary bg-white dark:bg-[#1a232e] p-8 relative shadow-lg shadow-blue-500/5">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase px-3 py-1 rounded-full tracking-wide">Best Seller</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-[#111418] dark:text-white">Interior Harmony</h3>
+<p class="text-base font-bold text-[#111418] dark:text-white">
+                            (Final cost depends on plot size and complexity)
+                        </p>
+<p class="text-sm text-[#637588] dark:text-gray-400 mt-2">Comprehensive interior design for standard homes.</p>
+</div>
+<ul class="flex flex-col gap-3 text-sm text-[#111418] dark:text-gray-200">
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> 3D Visualization</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Material Selection</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Vastu Consultation</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> 2 Revision Rounds</li>
+</ul>
+<button class="mt-auto w-full h-10 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-colors">
+                        View Details
+                    </button>
+</div>
+<div class="flex flex-col gap-6 rounded-xl border border-[#dbe0e6] dark:border-[#2a3441] bg-white dark:bg-[#1a232e] p-8 hover:border-primary/50 transition-colors">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold text-[#111418] dark:text-white">Complete Home Design</h3>
+<p class="text-base font-bold text-[#111418] dark:text-white">
+                            (Final cost depends on plot size and complexity)
+                        </p>
+<p class="text-sm text-[#637588] dark:text-gray-400 mt-2">Full architectural service from ground up.</p>
+</div>
+<ul class="flex flex-col gap-3 text-sm text-[#111418] dark:text-gray-200">
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Structural Blueprints</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> MEP Drawings</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Unlimited Revisions</li>
+<li class="flex gap-2 items-center"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Site Supervision</li>
+</ul>
+<button class="mt-auto w-full h-10 rounded-lg bg-[#f0f2f4] dark:bg-[#2a3441] hover:bg-[#e0e2e4] dark:hover:bg-[#3a4451] text-[#111418] dark:text-white text-sm font-bold transition-colors">
+                        View Details
+                    </button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-[#0b1219] py-16 px-4 md:px-10 flex justify-center">
+<div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="order-2 lg:order-1 relative rounded-xl overflow-hidden aspect-square lg:aspect-auto lg:h-full min-h-[400px]">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Architect working on a large drafting table with tools" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCazfsE3x_b7WWoNJkOtK-LxO--0o--7lVDRYAu-6hem6T-go4VOeXSrOLLZGGiFYFRLh4BuMZWjLxFc52C-fi1V_DKlPhOIqWg-vsybtRVNj-Y9r-67U3T8DGLNAst6-Cbyw742-enRU-w6Fv9TuJ2VYTRdCu5tMAAas6krowHURiiR_DHjVD3qAP6YuEovzEONlVS09iz5bQpYe5XkI05ka2c5xs5rqRJDhf_ZZuklODhyGOmMEH7Fa2tXnOqxbiWHfKWHoEadc_D");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-white">
+<p class="font-bold text-xl">"Architecture is a visual art, and the buildings speak for themselves."</p>
+</div>
+</div>
+<div class="order-1 lg:order-2 flex flex-col gap-8">
+<div class="flex flex-col gap-3">
+<h2 class="text-3xl md:text-4xl font-black leading-tight tracking-[-0.033em] text-[#111418] dark:text-white">Why Choose VastuVeda?</h2>
+<p class="text-base text-[#637588] dark:text-gray-400">We don't just build structures; we craft environments that elevate your daily life.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">engineering</span>
+</div>
+<div>
+<h4 class="font-bold text-[#111418] dark:text-white mb-1">Experienced Planning</h4>
+<p class="text-sm text-[#637588] dark:text-gray-400">Over 15 years of structural and design expertise.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">contrast</span>
+</div>
+<div>
+<h4 class="font-bold text-[#111418] dark:text-white mb-1">Lifestyle + Vastu</h4>
+<p class="text-sm text-[#637588] dark:text-gray-400">Modern aesthetics meeting ancient harmony principles.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">payments</span>
+</div>
+<div>
+<h4 class="font-bold text-[#111418] dark:text-white mb-1">Transparent Pricing</h4>
+<p class="text-sm text-[#637588] dark:text-gray-400">No hidden costs. Clear packages and contracts.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">draw</span>
+</div>
+<div>
+<h4 class="font-bold text-[#111418] dark:text-white mb-1">Personalized Design</h4>
+<p class="text-sm text-[#637588] dark:text-gray-400">Unique solutions tailored specifically to your needs.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark py-16 px-4 md:px-10 flex justify-center border-t border-[#f0f2f4] dark:border-[#2a3441]">
+<div class="max-w-7xl w-full flex flex-col gap-10">
+<h2 class="text-3xl font-black leading-tight tracking-[-0.033em] text-[#111418] dark:text-white text-center">
+                Client Stories
+            </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-background-light dark:bg-[#1a232e] p-6 rounded-xl flex flex-col gap-4">
+<div class="flex gap-1 text-[#f59e0b]">
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+</div>
+<p class="text-[#111418] dark:text-gray-200 italic">"The team at VastuVeda completely transformed our old apartment. The space optimization plan gave us so much more room than we thought possible."</p>
+<div class="flex items-center gap-3 mt-auto pt-2">
+<div class="w-10 h-10 rounded-full bg-cover bg-center" data-alt="Portrait of a smiling woman" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDrpdulj-PuloHpyFjHSx2jwdZGphYiCuNd79mA9ySKZlL7j6VB1vnDUK1jyAd5Q4OVKRnPTL4lkT7Tk2bJzX00ygnNSZjgt3uHC98WU2e_GEIOQG6e5rS0I6aV4A50sb2wbiqmckSAp4tRxWAUc7-KgsJ4BQeg2ixCJbk_aWu-YZEV-1GoWIjIbN0yhP5zjdYJUYPHWMvVtXjPzhK3RLE9g7it0fQoJIrunFJSpXTwiUMP-TzlH9QQ6jGQFACi-sRuPh3SiMNKbezx");'></div>
+<div>
+<p class="text-sm font-bold text-[#111418] dark:text-white">Sarah Jenkins</p>
+<p class="text-xs text-[#637588] dark:text-gray-400">Homeowner</p>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-[#1a232e] p-6 rounded-xl flex flex-col gap-4">
+<div class="flex gap-1 text-[#f59e0b]">
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+</div>
+<p class="text-[#111418] dark:text-gray-200 italic">"Professional, transparent, and incredibly creative. They incorporated Vastu principles without compromising on the modern aesthetic we wanted."</p>
+<div class="flex items-center gap-3 mt-auto pt-2">
+<div class="w-10 h-10 rounded-full bg-cover bg-center" data-alt="Portrait of a man in business casual" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRnm3Ei3GoH06meD-ajzdr7-t_uMFBFrqju91qI_-x25jxVYACge7V1rtMbpbBXGUR4Km_yMcs0MNWI7riaixhXDUS5jkD27ppP6qGiWdYqjtdE2xEJ4Yz5MKV3F2L7ii0yWTwFJ4GZ5noBl5wB7fnuRlfscuuxza20jodBkMh8azTMfWIfN1gZBfqoMwTrIbJlX4jgxGceyNUzZnoGfbi5DY4i-0rRNjhjjdjT0rYDRCM1OJEpkSjBd48ceuHPRQaW24GTsqT1y1H");'></div>
+<div>
+<p class="text-sm font-bold text-[#111418] dark:text-white">Michael Chen</p>
+<p class="text-xs text-[#637588] dark:text-gray-400">Property Developer</p>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-[#1a232e] p-6 rounded-xl flex flex-col gap-4">
+<div class="flex gap-1 text-[#f59e0b]">
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+<span class="material-symbols-outlined text-[20px] fill-current">star</span>
+</div>
+<p class="text-[#111418] dark:text-gray-200 italic">"From the first consultation to the final blueprint, the process was seamless. The 'Smart Home Layout' package was exactly what we needed."</p>
+<div class="flex items-center gap-3 mt-auto pt-2">
+<div class="w-10 h-10 rounded-full bg-cover bg-center" data-alt="Portrait of a young woman with glasses" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAZzD7RrBcGbwJXz7zBGYKsLyF_xHVA_d7p3739C9jrmLSOuLLaJZ-BoDV3v7uJQCUN_tP9bO53P8awiU6TBm3ipYL0qb9li64LSA9xm6Ztxq_7mAC9wzC3X-gu49oZPp4s9rmHHrC3UcX7ThslTwOEGq8TZNU5mk1Qqzfh8X2LDQs-YIi7KShA6CxhMva72QV6KeI_1Iib95YpnBckqf_KoJzfh2dvyI2MQWeef6AvxkQkQYnZhFSiwTXEMp90Dq5xSANPVsr17AAv");'></div>
+<div>
+<p class="text-sm font-bold text-[#111418] dark:text-white">Emily Rodriguez</p>
+<p class="text-xs text-[#637588] dark:text-gray-400">First-time Buyer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-white dark:bg-[#0b1219] border-t border-[#f0f2f4] dark:border-[#2a3441] py-12 px-4 md:px-10">
+<div class="max-w-7xl w-full mx-auto flex flex-col md:flex-row justify-between gap-10">
+<div class="flex flex-col gap-4 max-w-sm">
+<div class="flex items-center gap-3 text-[#111418] dark:text-white">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<h2 class="text-lg font-bold">VastuVeda</h2>
+</div>
+<p class="text-sm text-[#637588] dark:text-gray-400">Creating timeless spaces that blend functionality with artistic vision. Your dream home starts here.</p>
+<div class="flex gap-4 mt-2">
+<a class="text-[#637588] hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-[#637588] hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-10">
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-[#111418] dark:text-white">Company</h4>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="about.html">About Us</a>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="#">Careers</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-[#111418] dark:text-white">Services</h4>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="services.html">Architectural Design</a>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="services.html">Interior Design</a>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="services.html">Exterior Design</a> 
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="services.html">Vastu Consultation</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-[#111418] dark:text-white">Contact</h4>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="contact.html">Get a Quote</a>
+<a class="text-sm text-[#637588] dark:text-gray-400 hover:text-primary" href="consult.html">Consult our Architect</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-[#f0f2f4] dark:border-[#2a3441] flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#637588] dark:text-gray-500">
+<p>© 2024 VastuVeda. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+<script>
+function toggleMenu() {
+  document.getElementById("mobile-menu").classList.toggle("hidden");
+}
+</script>
+</body></html>
